@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageUploadActivity" >
+	
+    
+   
+    <EditText 
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:text="/mnt/sdcard/DSC04513.JPG"
+        />
+  
+       
+	<Button 
+        android:id="@+id/get"
+        android:onClick="doPost"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="提交"
+        />
+</LinearLayout>

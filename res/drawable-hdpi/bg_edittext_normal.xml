@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<shape xmlns:android="http://schemas.android.com/apk/res/android">   
+    <solid android:color="#FFFFFF" />   
+    <corners android:radius="3dip"/>
+    <!-- 无焦点时 控件颜色变灰色 -->  
+    <stroke    
+        android:width="1dip"    
+        android:color="#cdcdcd" />   
+</shape>     
